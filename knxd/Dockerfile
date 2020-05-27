@@ -1,7 +1,6 @@
 ARG BUILD_FROM
 FROM ${BUILD_FROM}
 
-ENV LANG C.UTF-8
 ARG KNXD_VERSION
 RUN set -xe \
     && apk update \
