@@ -18,6 +18,7 @@
     "SYS_MODULE",
     "SYS_RAWIO"
   ],
+  "image": "zhujisheng/{arch}-addon-knxd",
   "devices": [
     "/dev/bus/usb:/dev/bus/usb:rwm",
     "/dev/mem:/dev/mem:rw"
