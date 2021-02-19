@@ -18,11 +18,6 @@
     "SYS_MODULE",
     "SYS_RAWIO"
   ],
-  "image": "zhujisheng/{arch}-addon-knxd",
-  "devices": [
-    "/dev/bus/usb:/dev/bus/usb:rwm",
-    "/dev/mem:/dev/mem:rw"
-  ],
   "options": {
     "address": "0.0.1",
     "client_address": "0.0.2:8",
